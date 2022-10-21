@@ -1,0 +1,44 @@
+.post-photo {
+  padding: 20px;
+}
+
+.post-photo img {
+  height: 100%;
+  width: 100%;
+}
+
+.username-post {
+  color: black;
+}
+
+.photo-profile-comment {
+  height: 40px;
+  width: 40px;
+  margin-bottom: 15px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.photo-profile-comment img {
+  height: 100%;
+  width: 100%;
+}
+
+.comment {
+  border: 0px solid rgb(230, 234, 231);
+  background-color: rgb(31, 95, 31);
+  display: flex;
+  padding: 10px 20px;
+  flex-direction: column;
+  font-family: "Lucida Sans Unicode";
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(230, 234, 231);
+}
+
+.comment:hover {
+  cursor: pointer;
+  background-color: rgb(157, 200, 170);
+  color: white;
+}

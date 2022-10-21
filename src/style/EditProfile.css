@@ -1,0 +1,114 @@
+.edit-profile {
+  width: 945px;
+  height: 400px;
+  position: relative;
+  top: 10px;
+  left: 150px;
+  /* border: 1px solid red; */
+  background-color: rgb(195, 245, 207);
+  border-radius: 20px;
+}
+
+.title-editProfile {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4cm;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(31, 95, 31);
+}
+
+.section2-edit-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 194px;
+  height: 50px;
+  /* border: 1px solid green; */
+}
+
+.section2-edit-image img {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+}
+
+.section2-edit-nama label,
+.section2-edit-username label,
+.section2-edit-bio label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 50px;
+  /* border: 1px solid green; */
+}
+
+.section2-edit-fotoProfile-name {
+  font-size: 20px;
+  color: rgb(38, 38, 38);
+  font-weight: 400;
+}
+
+.section2-edit-fotoProfile-ubah {
+  color: rgb(31, 95, 31);
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.section2-edit-fotoProfile-ubah:hover {
+  text-decoration: underline;
+}
+
+.section1,
+.section2 {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.button-edit {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.button-edit button {
+  padding: 10px;
+}
+
+.save {
+  border: 0px solid rgb(230, 234, 231);
+  background-color: rgb(31, 95, 31);
+  display: flex;
+  margin-right: 20px;
+  padding: 20px 30px;
+  flex-direction: column;
+  font-family: "Lucida Sans Unicode";
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(230, 234, 231);
+}
+
+.cancel {
+  border: 0px solid rgb(230, 234, 231);
+  background-color: rgb(22, 57, 22);
+  display: flex;
+  padding: 10px 20px;
+  flex-direction: column;
+  font-family: "Lucida Sans Unicode";
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(230, 234, 231);
+}
+
+.save:hover,
+.cancel:hover {
+  cursor: pointer;
+  background-color: rgb(157, 200, 170);
+  color: white;
+}

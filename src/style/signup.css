@@ -1,0 +1,74 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  padding: 0px;
+  /* background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+      ),
+      url(./foto/82d59c69-3324-4f53-9752-e711ff61f7b2.jpg); */
+  background-size: cover;
+  height: 100vh;
+}
+
+.signUp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(31, 95, 31);
+}
+
+.form-signUp {
+  display: flex;
+  align-items: center;
+  margin-left: 370px;
+  background-color: beige;
+  /* /* padding-top: 20px; */
+  width: 450px;
+  padding: 40px 20px;
+  border-radius: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(31, 95, 31);
+}
+
+.group-signUp {
+  resize: none;
+  width: 400px;
+  height: 60px;
+}
+
+.foto-profile {
+  resize: none;
+  width: 400px;
+  height: 60px;
+}
+
+.submit {
+  border: 0px solid rgb(230, 234, 231);
+  background-color: rgb(31, 95, 31);
+  display: flex;
+  padding: 10px 20px;
+  flex-direction: column;
+  font-family: "Lucida Sans Unicode";
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(230, 234, 231);
+}
+
+.submit:hover {
+  cursor: pointer;
+  background-color: rgb(157, 200, 170);
+  color: white;
+}

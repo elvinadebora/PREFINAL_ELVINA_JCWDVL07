@@ -1,0 +1,213 @@
+/* untuk tanda (*) untuk semua full text */
+* {
+  font-family: Mulish, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.background-login {
+  margin: 0pxs;
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  padding: 0px;
+}
+
+/* .wrap-background {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      animation: slide 1s infinite;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+    } */
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 20px;
+  /* align-items: center; */
+}
+
+.nav-nature {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  margin-top: -110px;
+  margin-left: -20px;
+}
+
+.nav-location {
+  /* display: flex; 
+      flex-direction: row; */
+  border: 0px;
+  background-color: rgb(195, 245, 207);
+  border-radius: 20px;
+  align-items: left;
+  font-family: "Lucida Sans Unicode";
+  margin: 0px 100px;
+  padding: 8px 100px 8px 20px;
+  /* atas kanan bawah kiri */
+}
+
+.nav-location:hover {
+  cursor: pointer;
+  background-color: white;
+  color: gray;
+}
+
+.btn-border {
+  border: 0px rgb(230, 234, 231);
+  background-color: rgb(195, 245, 207);
+  padding-top: 20px;
+  padding: 12px 25px;
+  border-radius: 50px;
+  font-weight: 900;
+  font-size: 18px;
+  color: rgb(31, 95, 31);
+}
+
+.btn-border:hover {
+  cursor: pointer;
+  background-color: rgb(31, 95, 31);
+  color: white;
+}
+
+.btn-text {
+  border: 0;
+  background-color: transparent;
+  color: rgb(195, 245, 207);
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.btn-text:hover {
+  cursor: pointer;
+  color: rgb(31, 95, 31);
+  transition: color 250ms ease-in-out;
+}
+
+/* BAGIAN TENGAH */
+
+.page-title {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  align-items: center;
+  background-color: transparent;
+}
+
+.form-group {
+  background-color: rgb(195, 245, 207);
+  padding-top: 20px;
+  padding: 30px 40px;
+  border-radius: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(31, 95, 31);
+}
+
+.title-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 50px;
+  color: rgb(31, 95, 31);
+}
+
+.title-content {
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Lucida Sans Unicode";
+  font-weight: bold;
+  font-size: 22px;
+  color: rgb(195, 245, 207);
+  padding: 12px 16px;
+}
+
+.try-free {
+  border: 0px solid rgb(230, 234, 231);
+  background-color: rgb(31, 95, 31);
+  display: flex;
+  padding: 10px 20px;
+  flex-direction: column;
+  font-family: "Lucida Sans Unicode";
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(230, 234, 231);
+}
+
+.try-free:hover {
+  cursor: pointer;
+  background-color: rgb(157, 200, 170);
+  color: white;
+}
+
+.beautiful-place {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(195, 245, 207);
+  padding: 18px 300px;
+  padding-bottom: 100px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  background-color: #201717b3;
+  /* justify-content: space-between; */
+  padding: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.pulau {
+  padding-left: 68px;
+  padding-right: 68px;
+  align-items: center;
+  color: rgb(31, 95, 31);
+}
+
+.pulau:hover {
+  cursor: pointer;
+  /* background-color: rgb(31, 95, 31); */
+  color: white;
+}
+
+.havent-acc {
+  color: rgb(31, 95, 31);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.sign-register {
+  text-decoration: underline;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.sign-register:hover {
+  text-decoration: underline;
+  color: rgb(109, 176, 125);
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}

@@ -1,0 +1,44 @@
+.foto-sampul {
+  background-image: url(../img/background.jpg);
+  height: 250px;
+  background-position: center;
+}
+
+.profile-menu {
+  background-color: white;
+  /* height: 1000px; */
+}
+
+.login {
+  border: 0px solid rgb(230, 234, 231);
+  background-color: rgb(31, 95, 31);
+  display: flex;
+  padding: 10px 20px;
+  flex-direction: column;
+  font-family: "Lucida Sans Unicode";
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(230, 234, 231);
+}
+.login:hover {
+  cursor: pointer;
+  background-color: rgb(157, 200, 170);
+  color: white;
+}
+.photo-profile {
+  height: 80px;
+  width: 80px;
+  margin-bottom: 15px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.photo-profile img {
+  height: 100%;
+  width: 100%;
+}
+
+.username {
+  color: white;
+}
